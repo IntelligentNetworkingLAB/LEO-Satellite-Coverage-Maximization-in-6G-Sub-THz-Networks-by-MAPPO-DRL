@@ -3,8 +3,8 @@
 ## Overview
 Satellite systems face a significant challenge in effectively utilizing limited communication resources to meet the demands of ground network traffic, characterized by asymmetrical spatial distribution and time-varying characteristics. Moreover, the coverage range and signal transmission distance of low Earth orbit (LEO) satellites are restricted by notable propagation attenuation, molecular absorption, and space losses in sub-terahertz (THz) frequencies. This paper introduces a novel approach to maximize LEO satellite coverage by leveraging reconfigurable intelligent surfaces (RISs) within 6G sub-THz networks. The optimization objectives encompass enhancing the end-to-end data rate, optimizing satellite-remote user equipment (RUE) associations, data packet routing within satellite constellations, RIS phase shift, and ground base station (GBS) transmit power (i.e., active beamforming). The formulated joint optimization problem poses significant challenges owing to its time-varying environment, non-convex characteristics, and NP-hard complexity. To address these challenges, we propose a block coordinate descent (BCD) algorithm that integrates balanced K-means clustering, multi-agent proximal policy optimization (MAPPO) deep reinforcement learning (DRL), and whale optimization (WOA) techniques. The performance of the proposed approach is demonstrated through comprehensive simulation results, exhibiting its superiority over existing baseline methods in the literature.
 
-![image info](./image/system_model.png)
 ![image info](./image/Angles.png)
+![image info](./image/system_model.png)
 ![image info](./image/MAPPO_DRL.png)
 
 ## Version
