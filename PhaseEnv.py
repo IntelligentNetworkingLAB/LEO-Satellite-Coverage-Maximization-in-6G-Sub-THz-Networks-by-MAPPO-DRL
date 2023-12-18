@@ -33,7 +33,7 @@ if __name__ == '__main__':
         env,
         verbose=1,
         tensorboard_log="./logs/",
-        #n_epochs=1,
+        n_epochs=1,
         gamma=0.0
     )
     eval_callback = EvalCallback(env, eval_freq=1000, deterministic=True, render=False)
